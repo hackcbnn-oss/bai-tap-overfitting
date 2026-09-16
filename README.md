@@ -8,7 +8,7 @@ Cấu trúc dự án
  README.md: Tài liệu mô tả dự án và lý thuyết liên quan.
 
 Lý thuyết Overfitting & Kỹ thuật khắc phục
-1. Nguyên nhân Overfitting: Sử dụng đa thức bậc cao (`degree=8`) khiến mô hình cố gắng đi qua mọi điểm nhiễu của dữ liệu nhỏ, dẫn đến học thuộc lòng.
+1. Nguyên nhân Overfitting: Sử dụng đa thức bậc cao (degree=8) khiến mô hình cố gắng đi qua mọi điểm nhiễu của dữ liệu nhỏ, dẫn đến học thuộc lòng.
 2. Kỹ thuật khắc phục:
 Train-Test Split: Chia dữ liệu thành tập học (65%) và tập kiểm tra (35%) để phát hiện sai lệch.
 Giảm bậc mô hình (Lower Degree): Hạ bậc đa thức về bậc 1 để tìm xu hướng chung.
